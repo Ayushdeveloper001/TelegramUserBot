@@ -1,1 +1,1 @@
-worker: bash catub
+worker: python3 -m userbot
