@@ -64,7 +64,7 @@ COLLECTION_STRINGS = {
 
 def fetch_data():
     global DEFAULTUSERBIO, DEFAULTUSER, CHANGE_TIME, DEFAULT_PIC, digitalpfp
-    DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or " ᗯᗩᏆᎢᏆᑎᏀ ᏞᏆᏦᗴ ᎢᏆᗰᗴ  "
+    DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or " All About Me = TheAyush.vercel.app  "
     DEFAULTUSER = gvarstatus("DEFAULT_NAME") or Config.ALIVE_NAME
     CHANGE_TIME = int(gvarstatus("CHANGE_TIME") or "60")
     DEFAULT_PIC = gvarstatus("DEFAULT_PIC") or None
