@@ -242,7 +242,7 @@ async def article_builder(event, method):
         buttons = [
             (
                 Button.inline("Stats", data="stats"),
-                Button.url("Repo", "https://github.com/TgCatUB/catuserbot"),
+                Button.url("Developer", "https://t.me/yonecess"),
             )
         ]
         try:
